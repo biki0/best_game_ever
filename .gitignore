@@ -1,3 +1,4 @@
+.gitignore
 libFLAC-8.dll
 libfreetype-6.dll
 libjpeg-9.dll
