@@ -107,7 +107,8 @@ void LevelManager::load_level(){
             }
                 
         }
-    }    
+    }   
+     
 }
 
 void LevelManager::render(){
