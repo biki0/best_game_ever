@@ -68,11 +68,11 @@ void Player::update(float dt, LevelManager &level){
 
     //floor col
     if(m_player->get_textured_rectangle().get_y_position() + m_player->get_textured_rectangle().get_height() >= SCREEN_HEIGHT){
-        //m_player_pos.y = SCREEN_HEIGHT - m_player_rect.h;
+        
         m_player->get_textured_rectangle().set_y_position(SCREEN_HEIGHT - m_player->get_textured_rectangle().get_height());
         m_velocity.y = 0.f;
         m_in_air = false;
-        //std::cout << m_in_air << "\n";
+        
     }
 
     //map collision
