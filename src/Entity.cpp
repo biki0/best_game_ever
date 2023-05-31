@@ -47,17 +47,6 @@ Collider& Entity::get_collider(size_t index){
 
 void Entity::update(){
 
-    // if(nullptr != m_sprite){
-    //     int x = m_sprite->get_x_position();
-    //     int y = m_sprite->get_y_position();
-    //     int w = m_sprite->get_width();
-    //     int h = m_sprite->get_height();
-
-    //     if(nullptr != m_collider){
-    //         m_collider->set_absolute_position(x, y);
-    //         m_collider->set_dimensions(w, h);
-    //     }
-    // }
 
 }
 
